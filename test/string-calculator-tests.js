@@ -1,6 +1,6 @@
 var assert = require('assert');
 var expect = require("chai").expect;
-var func = require("../11-06-2018-string-calculator")
+var func = require("../12-06-2018-string-calculator")
 describe("String calculator tests", function () {
     it("should return the sum off all the numbers in the string.", function () {
         expect(func.intAdd("1,2,3,4")).to.be.eql(10)
